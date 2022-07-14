@@ -97,7 +97,7 @@ export const Tabs = (color: any) => {
                           <span className="text-xs">Earned May 2022</span>
                         </li>
                         <li className='pb-4'>
-                          <span className='text-md'>Major in Computor Information Systems</span>
+                          <span className='text-md'>Major in Computer Information Systems</span>
                         </li>
                         <li>
                           <span className='text-md'>Minor in Web Development</span>
@@ -138,7 +138,7 @@ export const Tabs = (color: any) => {
                           <span className='text-md'>Provided support and training for event staff during the event</span>
                         </li>
                         <li>
-                          <span className='text-md'>Worked in a team using WordPress to redesign the SGA section of the universities website</span>
+                          <span className='text-md'>Worked in a team using WordPress to redesign the SGA section of the university's website</span>
                         </li>
                       </ul>
                     </Callout>

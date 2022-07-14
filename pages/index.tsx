@@ -20,24 +20,24 @@ const Index: NextPageWithLayout  = () => {
       <div className="flex flex-col w-full pb-10 divide-y space-y-5 divide-rai-bone">
         <div className='hidden' />
         <Card title='A little about myself'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non orci eu neque 
-            egestas commodo at ac arcu. Vestibulum interdum lorem eget erat tempus, vel pretium 
-            ligula pharetra. Vestibulum a consectetur orci. Vivamus justo tortor, mollis sit amet 
-            hendrerit a, hendrerit eget lacus. Maecenas euismod nisl congue metus pretium tincidunt. 
-            Nunc ex risus, luctus a tempus vehicula, fringilla in leo. Nulla at laoreet lacus. Donec 
-            eu tortor elit. Nunc diam odio, sagittis sit amet pretium eu, pellentesque ut justo. 
-            Sed quis risus in eros eleifend vehicula sed et neque. Nullam egestas tortor sit amet 
-            nibh faucibus tincidunt.
+          Working with computers in some form has been a passion of mine from a very young age and has 
+          allowed me to express my creativity in a variety of ways. Early on, I would use map editors
+          to create fantastic worlds and was the first time I was exposed to scripts. In junior high school,
+          I was able to take my first programming class that used Visual Basic. It wouldn't be till senior
+          year of high school, when I was able to take another programming class, that I would learn that I
+          a talent for programming. Being a quick learner, I was able to go ahead of the rest of the class and 
+          complete a simple solitare game. Because of my aptitude the instructor asked a simple question that would
+          set me on the path of becoming a developer: "Have you ever considered doing this as a career?". Through my years
+          in post-secondary education my strong problem solving skills, creative out of the box thinking, desire for learning
+          new technologies, and initiative for leadship has earned the praise of many of my instructors and peers.
         </Card>
         <Card title='A little about my work'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non orci eu neque 
-          egestas commodo at ac arcu. Vestibulum interdum lorem eget erat tempus, vel pretium 
-          ligula pharetra. Vestibulum a consectetur orci. Vivamus justo tortor, mollis sit amet 
-          hendrerit a, hendrerit eget lacus. Maecenas euismod nisl congue metus pretium tincidunt. 
-          Nunc ex risus, luctus a tempus vehicula, fringilla in leo. Nulla at laoreet lacus. Donec 
-          eu tortor elit. Nunc diam odio, sagittis sit amet pretium eu, pellentesque ut justo. 
-          Sed quis risus in eros eleifend vehicula sed et neque. Nullam egestas tortor sit amet 
-          nibh faucibus tincidunt.
+          In any project that I work on, I strive for a high standard of quality from myself and from my team. I have always
+          had an affinity towards leadership and, from my many years in competative games, retail work, and group projects in 
+          school, I have developed the organization and communication skills needed to make my teams successful. When collaborating
+          with a team, I always leave my ego at the door to create the best possible product. When designing interfaces for my
+          projects I am a function above form kind of person. I create a products that have a great user experience and are
+          easy to use before worrying about the aesthetic.
         </Card>
         <Card title='Want to reach out?'>
           <div className='flex m-auto'>

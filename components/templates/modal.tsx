@@ -5,19 +5,20 @@ type Props = {
     title: string,
     imgsrc: string,
     link?: string,
+    content?: string,
     children: ReactNode
 }
 
-const Modal: FC<PropsWithChildren<Props>> = ({title, imgsrc, link, children}) => {
+const Modal: FC<PropsWithChildren<Props>> = ({title, imgsrc, link, content, children}) => {
   const [showModal, setShowModal] = React.useState(false);
   return (
     <>
       <button
-        className="text-smmx-5 my-5 rounded-xl outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+        className="mx-5 my-5 rounded-xl outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
         type="button"
         onClick={() => setShowModal(true)}>
         <CardWithImage title={title} imgsrc={imgsrc}>
-            Description FPO - The lazy dog jumps over the long brown shit stain.
+          {content}
         </CardWithImage>
       </button>
       {showModal ? (
@@ -33,7 +34,7 @@ const Modal: FC<PropsWithChildren<Props>> = ({title, imgsrc, link, children}) =>
                   <h3 className="text-3xl text-rai-white font-semibold">
                     {title}
                   </h3>
-                  <a href={link}>
+                  <a href={link} target='_blank'>
                     <span className="material-symbols-outlined px-5 scale-150 text-rai-blue cursor-pointer">link</span>
                   </a>
                 </div>
@@ -56,7 +57,7 @@ const Modal: FC<PropsWithChildren<Props>> = ({title, imgsrc, link, children}) =>
               </div>
             </div>
           </div>
-          <div className="opacity-50 fixed inset-0 z-40 bg-rai-black"></div>
+          <div className="opacity-50 fixed inset-0 z-40 bg-rai-black "></div>
         </>
       ) : null}
     </>
